@@ -1,0 +1,132 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: green;
+    margin-bottom: 20px;
+}
+
+.box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.header input {
+    margin-right: 10px;
+}
+
+.header label {
+    flex: 1;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.discount {
+    font-size: 12px;
+    color: white;
+    background-color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.popular {
+    background-color: #28a745;
+}
+
+.content {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 15px;
+}
+
+.selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.selection div {
+    display: flex;
+    flex-direction: column;
+}
+
+.selection label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.selection select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: medium;
+    background-color: #28a745;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.one {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.line p {
+    color: #28a745;
+}
+
+
+
+.line p span {
+    color: #333;
+    font-weight: bold;
+}
